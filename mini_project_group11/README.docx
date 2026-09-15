@@ -1,0 +1,27 @@
+# Online Examination & Evaluation System
+
+An online exam platform where admins can create exams, faculty can manage question banks, and students can attempt exams with time limits. The system features auto-evaluation for objective answers and generates result analytics.
+
+## Technology Stack
+- **Frontend**: Flutter (Dart) - For building a responsive and interactive user interface.
+- **Backend**: Node.js & Express - Provides RESTful APIs and business logic.
+- **Database & Services**: Firebase (Firestore Database & Firebase Authentication) - For real-time database storage and user management.
+
+## Main Screens
+- **Login & Registration**: Secure user authentication synced with Firebase.
+- **Admin/Faculty Dashboard**: Central hub to manage exams and question banks.
+- **Student Dashboard**: Where students can view available exams and check their past results.
+- **Take Exam Screen**: The actual exam interface featuring a timer, auto-submission, and a seamless testing experience.
+
+## Main APIs
+- `POST /api/users/register`: Registers a new user in Firebase Auth and stores user details in Firestore.
+- `POST /api/users/login`: Authenticates the user and returns their profile and role.
+- `GET /api/exams`: Fetches the list of available exams.
+- `POST /api/exams`: Creates a new exam (Admin/Faculty).
+- `POST /api/exams/:id/submit`: Submits the student's exam answers for auto-evaluation.
+
+## Team Members
+1. **Piyush SolankiRoll no.026** - Worked on APIs (Backend)
+2. **Param Vinayak Singh Roll no.133** - Worked on the App (Frontend)
+3. **Kinjal GawaliRoll no.116** - Worked on the App (Frontend)
+4. **Fayaz shaikh Roll no.106** - Worked on Integration and Firebase
