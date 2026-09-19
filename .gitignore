@@ -1,0 +1,11 @@
+# Node dependencies and local credentials
+**/node_modules/
+**/.env
+**/serviceAccountKey.json
+
+# Flutter and platform build output
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
